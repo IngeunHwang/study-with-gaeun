@@ -870,7 +870,7 @@ class WareHouse(gym.Env):
 
         # If human location = robot location ??
         if hrow == row and hcol == col:
-            reward -= self.reward_per_collision
+            # reward -= self.reward_per_collision
             info['collision'] = True
 
 
