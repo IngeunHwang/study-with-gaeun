@@ -104,7 +104,7 @@ class Displapy(gym.Env):
         required_amount = required_info[]
 
         # consider defective
-        if required_info[0] == BLK_1
+        if required_info[0] == BLK_12:
             required_time = ((required_amount / 0.  975) / 506) * 40
         elif required_info[0] == BLK_2:
             required_time = ((required_amount / 0.975) / 506) * 70
